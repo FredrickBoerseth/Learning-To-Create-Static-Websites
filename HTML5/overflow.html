@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+</head>
+<style type="text/css">
+        h2, p {
+            width: 400px;
+            font-size: 90%;
+            line-height: 1.2em;
+        }
+        h2 {
+            color: #0088dd;
+            border-bottom: 1px solid #0088dd;
+        }
+        p {
+            min-height: 10px;
+            max-height: 30px;
+        }
+        p.one {
+            overflow: hidden;
+        }
+        p.two {
+            overflow: scroll;
+        }
+    </style>
+<body>
+    <h2>Fender mustrang</h2>
+    <p class="one">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque error aliquam dolorum repellendus ullam molestias voluptatem accusantium sunt obcaecati excepturi iste itaque incidunt id vitae similique exercitationem, illo beatae fugit.</p>
+    <h2>Fender Stratocaster</h2>
+    <p class="two">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus provident voluptatum enim quis ducimus id, placeat dolor expedita animi aperiam? Autem, earum placeat odit perferendis distinctio rerum eligendi id nemo.</p>
+    <h2>Gibson Les Paul</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit odio laudantium tempore quod exercitationem tempora molestias sunt ratione earum, velit dolor optio doloremque? Porro reprehenderit libero incidunt exercitationem, sunt illo?</p>
+</body>
+</html>
